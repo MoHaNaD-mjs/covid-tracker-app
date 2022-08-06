@@ -1,0 +1,58 @@
+.sidebar {
+  width: 250px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #ffffff;
+  box-shadow: 1px 5px 10px #d1d1d1;
+  z-index: 1;
+}
+.sidebar .logo {
+  text-align: center;
+  margin: 20px 0px 40px;
+}
+.sidebar .logo img {
+  width: 50%;
+}
+.sidebar .navigation ul li {
+margin: 10px 0px;
+padding: 5px 15px;
+cursor: pointer;
+transition: all ease 0.4s;
+}
+.sidebar .navigation ul li:hover,
+.sidebar .navigation ul li:active,
+.sidebar .navigation ul li:focus{
+background-color:#333333 ;
+}
+.sidebar .navigation ul li a {
+  text-decoration: none;
+  color:#333333;
+  font-size: 20px;
+  transition: all ease 0.4s;
+}
+.sidebar .navigation ul li:hover a,
+.sidebar .navigation ul li:active a,
+.sidebar .navigation ul li:focus a {
+  color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
