@@ -8,6 +8,24 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 
 ## Code scaffolding
 
+covid-tracker-app
+
+npm install --save bootsrap font-awesome
+
+**install :**
+- Bootstrap
+```
+npm i bootstrap
+```
+
+- font-awesome
+```
+npm i font-awesome
+```
+
+
+
+
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
 ## Build
