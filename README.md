@@ -24,7 +24,9 @@ npm i font-awesome
 ```
 
 ## API
-From postman 
+From postman https://covid19api.com/
+
+
 https://documenter.getpostman.com/view/10808728/SzS8rjbc?version=latest#b07f97ba-24f4-4ebe-ad71-97fa35f3b683
 
 
