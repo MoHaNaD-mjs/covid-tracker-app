@@ -1,0 +1,29 @@
+<div class="row mt-3">
+  <div class="col-md-4">
+    <div class="card">
+      <div class="card-body">
+        <i class="fa fa-check-square text-info"></i>
+        <h5 class="card-title">Confirmed</h5>
+        <p>{{ summaryData?.TotalConfirmed| number}}</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card">
+      <div class="card-body">
+        <i class="fa fa-times text-danger"></i>
+        <h5 class="card-title">Deaths</h5>
+        <p>{{ summaryData?.TotalDeaths| number}}</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card">
+      <div class="card-body">
+        <i class="fa fa-check-square text-success"></i>
+        <h5 class="card-title">Recovered</h5>
+        <p>{{ summaryData?.TotalRecovered | number}}</p>
+      </div>
+    </div>
+  </div>
+</div>

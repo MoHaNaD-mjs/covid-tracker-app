@@ -1,4 +1,4 @@
-import { SummaryPageComponent } from './componets/summary-page/summary-page.component';
+import { SummaryPageComponent } from './components/summary-page/summary-page.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 

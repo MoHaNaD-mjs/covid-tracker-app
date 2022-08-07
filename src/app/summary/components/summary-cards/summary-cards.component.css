@@ -1,0 +1,11 @@
+.row .card {
+  text-align: center;
+  border: 0;
+  box-shadow: 1px 5px 10px #d1d1d1;
+}
+.row .card .fa {
+  font-size: 30px;
+}
+.row .card h5 {
+  font-size: 18px;
+}
