@@ -31,10 +31,6 @@ export class TopCountriesComponent implements OnInit ,OnChanges {
     ?.sort((a:any,b:any)=>b.TotalRecovered - a.TotalRecovered)
     .slice(0,5);
 
-    console.log(this.topConfirmedCases);
-    console.log(this.topConfirmedDeaths);
-    console.log(this.topConfirmedRecovered);
-
 
   }
 
