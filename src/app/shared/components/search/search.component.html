@@ -1,0 +1,19 @@
+<div class="row">
+<div class="col-md-4"></div>
+
+<div class="col-md-4">
+  <div class="input-group mt-3">
+    <input
+    type="text"
+    class="form-control"
+    placeholder="Search Country"
+    [(ngModel)]="searchTerm"
+    />
+<button
+class="btn btn-outline-success"
+type="button"
+(click)="search()"
+>Search</button>
+  </div>
+</div>
+</div>
