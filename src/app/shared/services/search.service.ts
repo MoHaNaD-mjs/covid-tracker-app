@@ -1,17 +1,18 @@
 import { Injectable } from '@angular/core';
-import { Subject } from 'rxjs';
+import { Observable, Subject } from 'rxjs';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class SearchService {
+  countries = new Subject();
 
-  countries =new Subject();
+  constructor() {}
 
-  constructor() { }
-
-
-  setCountris(countries: any ){
+  setCountris(countries: any) {
     this.countries.next(countries);
+  }
+  getCountris():Observable<any>{
+    return this.countries.asObservable();
   }
 }

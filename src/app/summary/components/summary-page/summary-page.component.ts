@@ -8,6 +8,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SummaryPageComponent implements OnInit {
   covidData:any={};
+
+  countryToSearch:string='';
+
   constructor(private dataService:DataService) { }
 
   ngOnInit(): void {
@@ -18,6 +21,10 @@ export class SummaryPageComponent implements OnInit {
         console.log('summary Data',this.covidData);
       }
     );
+  }
+
+  searchCountry(searchTerm:string){
+    this.countryToSearch= searchTerm;
   }
 
 }
