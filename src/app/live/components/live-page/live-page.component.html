@@ -1,1 +1,11 @@
-<p>live-page works!</p>
+<div class="row mt-5">
+  <div class="col">
+    <highcharts-chart
+      id="container"
+      [Highcharts]="Highcharts"
+      [constructorType]="chartConstructor"
+      [options]="chartOptions"
+      style="width: 100%; display: block; margin-top: 100px"
+    ></highcharts-chart>
+  </div>
+</div>
